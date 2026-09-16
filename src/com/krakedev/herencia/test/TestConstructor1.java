@@ -7,7 +7,7 @@ public class TestConstructor1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hija h = new Hija (2,3);
+		Hija h = new Hija ("",2,3);
 		System.out.println(h);
 
 	}

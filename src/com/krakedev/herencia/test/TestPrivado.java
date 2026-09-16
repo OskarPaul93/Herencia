@@ -7,7 +7,7 @@ public class TestPrivado {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hija hija = new Hija (10,3);
+		Hija hija = new Hija ("Mia",10,3);
 
 		hija.guardarSecreto();
 	}

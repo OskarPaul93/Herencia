@@ -4,6 +4,7 @@ public class Padre {
 	private int defectos;
 	private int virtudes;
 	private double totalAhorrado;
+	private String nombre;
 	
 //	@Override
 //	public String toString() {
@@ -17,7 +18,8 @@ public class Padre {
 //		System.out.println("Soy el constructor vacio del padre");
 //	}
 	
-	public Padre (int virtudes, int defectos) {
+	public Padre (String nombre, int virtudes, int defectos) {
+		this.nombre= nombre;
 		this.defectos= defectos;
 		this.virtudes = virtudes;
 		
@@ -25,7 +27,8 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Padre [defectos=" + defectos 
+		return "Padre [nombre= " + nombre
+				+ ", defectos=" + defectos 
 				+ ", virtudes=" + virtudes 
 				+ ", totalAhorrado=" + totalAhorrado + "]";
 	}
@@ -44,6 +47,16 @@ public class Padre {
 	}
 	
 	
+	
+	
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
 	public double getTotalAhorrado() {
 		return totalAhorrado;
 	}

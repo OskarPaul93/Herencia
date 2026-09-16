@@ -9,21 +9,21 @@ public class TestAhorros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Padre padre = new Padre (5,2);
+		Padre padre = new Padre ("Oscar",5,2);
 		padre.ahorrar(100);
-		System.out.println("Ahorro Padre: " + padre.getTotalAhorrado());
+		System.out.println(padre.getNombre() + " Ahorro Padre: " + padre.getTotalAhorrado());
 		
 		//Ahorro Hija
 		
-		Hija hija = new Hija (5,2);
+		Hija hija = new Hija ("Mia",5,2);
 		hija.ahorrar(100);
-		System.out.println("Ahorro Hija: " + hija.getTotalAhorrado());
+		System.out.println(hija.getNombre() + " Ahorro Hija: " + hija.getTotalAhorrado());
 
 		//Ahorro Hijo
 		
-		Hijo hijo = new Hijo (5,2,1);
+		Hijo hijo = new Hijo ("Zair",5,2,1);
 		hijo.ahorrar(100);
-		System.out.println("Ahorro Hijo: " + hijo.getTotalAhorrado());
+		System.out.println(hijo.getNombre() + " Ahorro Hijo: " + hijo.getTotalAhorrado());
 
 	}
 

@@ -7,7 +7,7 @@ public class TestHija {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hija hija = new Hija (2,3);
+		Hija hija = new Hija ("Mia", 2,3);
 		hija.escucharBadB();
 
 	}
