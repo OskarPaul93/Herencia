@@ -7,7 +7,7 @@ public class TestHerencia {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hija hija = new Hija ();
+		Hija hija = new Hija (5,2);
 		
 		hija.setVirtudes(5);
 		hija.setDefectos(2);

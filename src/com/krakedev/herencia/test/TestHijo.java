@@ -1,13 +1,14 @@
 package com.krakedev.herencia.test;
 
-import com.krakedev.herencia.Padre;
+import com.krakedev.herencia.Hijo;
 
-public class TestToString {
+public class TestHijo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Padre p =new Padre (3,2);
-		System.out.print(p);
+		
+		Hijo hijo = new Hijo (1,1,5);
+		System.out.println(hijo);
 
 	}
 
