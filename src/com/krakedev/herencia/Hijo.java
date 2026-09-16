@@ -14,6 +14,11 @@ public class Hijo extends Padre {
 	            + ", defectos=" + getDefectos() 
 	            + ", juguetes=" + juguetes + "]";
 	}
+	
+	@Override
+	public void ahorrar (double monto) {
+		super.ahorrar(monto* 0.5);
+	}
 
 	
 	
